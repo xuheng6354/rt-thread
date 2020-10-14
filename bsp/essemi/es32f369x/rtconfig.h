@@ -76,7 +76,15 @@
 #define RT_PIPE_BUFSZ 512
 #define RT_USING_SERIAL
 #define RT_SERIAL_RB_BUFSZ 64
+#define RT_USING_CAN
+#define RT_USING_HWTIMER
+#define RT_USING_I2C
+#define RT_USING_I2C_BITOPS
 #define RT_USING_PIN
+#define RT_USING_ADC
+#define RT_USING_PWM
+#define RT_USING_RTC
+#define RT_USING_SPI
 
 /* Using USB */
 
@@ -157,24 +165,31 @@
 
 /* SPI Drivers */
 
+#define BSP_USING_SPI0
 
 /* I2C Drivers */
 
+#define BSP_USING_I2C0
 
 /* CAN Drivers */
 
+#define BSP_USING_CAN
 
 /* ADC Drivers */
 
+#define BSP_USING_ADC
 
 /* RTC Drivers */
 
+#define BSP_USING_RTC
 
 /* HWtimer Drivers */
 
+#define BSP_USING_HWTIMER0
 
 /* PWM Drivers */
 
+#define BSP_USING_PWM1
 
 /* Onboard Peripheral Drivers */
 
